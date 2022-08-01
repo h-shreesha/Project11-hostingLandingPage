@@ -1,4 +1,4 @@
-# Project 10 - HTML ![HTML](./readmeImages/html-5Img.png) and CSS ![CSS](./readmeImages/css-3Img.png)
+# Project 11 - HTML ![HTML](./readmeImages/html-5Img.png) and CSS ![CSS](./readmeImages/css-3Img.png)
 
 By Shreesha
 
