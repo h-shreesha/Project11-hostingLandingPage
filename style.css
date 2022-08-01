@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    margin-left: 3rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.logo{
+    width: 150px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 3rem;
+    margin-left: 10rem;
+    color: #918b8b;
+}
+
+.list :nth-child(1){
+    color: #000;
+}
+
+.navbar button{
+    padding: 0.5rem 1rem;
+    margin-right: 6rem;
+    background: none;
+    border: 2px solid #42bae9;
+    border-radius: 10px;
+    color: #42bae9;
+    font-weight: 700;
+}
+
+.section1, .section2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+.section1-left h1{
+    font-size: 3rem;
+}
+
+.section1-left p{
+    color: #918b8b;
+    margin-top: 1rem;
+}
+
+.section1-left button{
+    margin-top: 2rem;
+    padding: 0.8rem 1rem;
+    background: linear-gradient(to bottom right, #538FFB , #5737D6);
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.section1 img{
+    width: 450px;
+    margin-right: 3rem;
+}
+
+.section2{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    margin-top: 8rem;
+}
+
+.section2 img{
+    width: 450px;
+    margin-left: 3.5rem;
+}
+
+.section2-right h1{
+    font-size: 3rem;
+}
+
+.section2-right p{
+    color: #918b8b;
+    margin-top: 1rem;
+}
+
+.section2-right button{
+    margin-top: 2rem;
+    padding: 0.8rem 1rem;
+    background: linear-gradient(to bottom right, #538FFB , #5737D6);
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6rem;
+    align-items: center;
+}
+
+.section3-left h1{
+    font-size: 3rem;
+}
+
+.section3-left p{
+    color: #918b8b;
+    margin-top: 1rem;
+}
+
+.section3-left button{
+    margin-top: 2rem;
+    padding: 0.8rem 1rem;
+    background: linear-gradient(to bottom right, #538FFB , #5737D6);
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.section3-right img{
+    width: 500px;
+    margin-right: 2rem;
+}
+
+.section4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section4 h1{
+    font-size: 3rem;
+}
+
+.section4 p{
+    color: #918b8b;
+    margin-top: 1rem;
+}
+
+.section5-part1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    /* gap: 80px; */
+    justify-content: center;
+}
+
+.section5-part2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.section5-card{
+    padding: 20px;
+    background-color: #fff;
+}
+
+.section5-card img{
+    width: 50px;
+    padding-bottom: 15px;
+}
+
+.section5-card h4{
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+
+.section5-card p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #918b8b;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.wordpress{
+    width: 30px;
+    padding-bottom: 0px;
+}
+
+.section6{
+    margin-left: 0rem;
+    margin-top: 3rem;
+    background-color: #42bae9;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section6 h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.section6-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 3rem;
+    
+}
+
+.section6-cards-part1{
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    height: 470px;
+    background-color: #fff;
+}
+
+.card-content li{
+    list-style-type: none;
+}
+
+.pricing-cards{
+    /* margin-top: 0.5rem; */
+}
+
+.pricing-cards h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-cards p{
+    color: #918b8b;
+    margin-bottom: 2rem;
+}
+
+.section6-cards :nth-child(2) .pricing-cards{
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1px; */
+}
+
+.section6-cards .card-content {
+    padding-left: 10px;
+}
+
+.section6-list{
+    display: flex;
+    gap: 10px;
+    line-height: 3rem;
+}
+
+.section6 .card-price{
+    margin-top: 2rem;
+}
+
+.section6 .card-price{
+    color: #918b8b;
+    font-size: 1rem;
+} 
+
+.section6 .card-price span{
+    font-weight: 700;
+    color: #000;
+    font-size: 2rem;
+}
+
+.section6 button{
+    margin-top: 10px;
+    padding: 5px 1rem;
+    background: none;
+    border: 2px solid #42bae9;
+    border-radius: 10px;
+    color: #42bae9;
+}
+
+.section6-cards :nth-child(2) button{
+    background: linear-gradient(to bottom right, #538FFB, #5737D6);
+    color: #fff;
+}
+
+.section7{
+    margin-top: 5rem;
+}
+
+.section7 h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section7 .section7-para{
+    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.review-cards-div{
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    /* padding-left: 4rem; */
+}
+
+.review-cards{
+    padding: 2rem;
+    background-color: #f8f0f0;
+    border-radius: 5px;
+}
+
+.review-people{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.section8{
+    margin-top: 2rem;
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+    padding-top: 2rem;
+    background: linear-gradient(to bottom right, #8bb1f8, #0d72ad);
+}
+
+.section8-para h1{
+    margin-left: 3rem;
+    font-size: 2rem;
+    color: #fff;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.section8-para p{
+    margin-left: 3rem;
+    color: #fff;
+    padding-bottom: 3rem;
+}
+
+.section8 button{
+    padding: 0.5rem 1.5rem;
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.footer{
+    margin-top: 8rem;
+    display: flex;
+    gap: 6rem;
+}
+
+.footer-clss{
+    margin-bottom: 1rem;
+}
+
+.comp-logo p{
+    margin-top: 2rem;
+    color: #918b8b;
+}
+
+.footer-list{
+    list-style-type: none;
+    line-height: 2.5rem;
+    color: #918b8b;
+}
+
+.footer-logo{
+    width: 27px;
+}
