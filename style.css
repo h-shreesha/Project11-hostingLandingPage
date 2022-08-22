@@ -32,6 +32,59 @@ body{
     color: #918b8b;
 }
 
+.hamburger{
+    display: none;
+}
+
+.mobile{
+    display: none;
+}
+
+.show-navbar {
+    display: flex !important;
+}
+
+@media only screen and (max-width: 767px){
+    .navbar {
+        position: relative;
+        padding: 0 20px;
+    }
+
+    .navbar .list {
+        display: none;
+    }
+
+    .mobile{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        top: 80px;
+        left: 0;
+        right: 0;
+        align-items: center;
+        width: 100%;
+        list-style-type: none;
+        background-color: #fff;
+        padding: 20px 0;
+        gap: 10px;
+    }
+
+    .mobile .register{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 4rem;
+    }
+    .hamburger {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        left: 20rem;
+    }
+}
+
 .list :nth-child(1){
     color: #000;
 }
@@ -390,4 +443,8 @@ body{
 
 .footer-logo{
     width: 27px;
+}
+
+@media screen and (max-width: 1023px) {
+    
 }
