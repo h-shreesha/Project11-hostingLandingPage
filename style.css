@@ -44,52 +44,12 @@ body{
     display: flex !important;
 }
 
-@media only screen and (max-width: 767px){
-    .navbar {
-        position: relative;
-        padding: 0 20px;
-    }
-
-    .navbar .list {
-        display: none;
-    }
-
-    .mobile{
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        align-items: center;
-        justify-content: center;
-        top: 80px;
-        left: 0;
-        right: 0;
-        align-items: center;
-        width: 100%;
-        list-style-type: none;
-        background-color: #fff;
-        padding: 20px 0;
-        gap: 10px;
-    }
-
-    .mobile .register{
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        left: 4rem;
-    }
-    .hamburger {
-        cursor: pointer;
-        display: block;
-        position: relative;
-        left: 20rem;
-    }
-}
 
 .list :nth-child(1){
     color: #000;
 }
 
-.navbar button{
+.navbar .register{
     padding: 0.5rem 1rem;
     margin-right: 6rem;
     background: none;
@@ -445,6 +405,108 @@ body{
     width: 27px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1091px) {
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .list{
+        position: relative;
+        left: -9rem;
+    }
+
+    .section1-left h1, .section2-right h1, .section3-left h1, .section4 h1{
+        font-size: 2rem;
+    }
+
+    .section1-left p, .section2-right p, .section3-left p, .section4 p{
+        font-size: 0.8rem;
+    }
+
+    .section1-left button, .section2-right button, .section3-left button{
+        margin-top: 1rem;
+        padding: 0.4rem 0.5rem;
+        border-radius: 10px;
+        border: none;
+        font-size: 0.9rem;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .section1 img, .section2-left img, .section3-right img{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar {
+        position: relative;
+        padding: 0 20px;
+    }
+
+    .navbar .list {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        top: 80px;
+        left: 0;
+        right: 0;
+        align-items: center;
+        width: 100%;
+        list-style-type: none;
+        background-color: #fff;
+        padding: 20px 0;
+        gap: 10px;
+    }
+
+    .mobile .register {
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 4rem;
+    }
+
+    .hamburger {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        left: 20rem;
+    }
+
+    .section1, .section2, .section3, .section4, .section5-part1, .section5-part2, .section6, .section6-cards, .section8, .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section1, .section3{
+        flex-direction: column-reverse;
+    }
+
+    .section2, .section4, .section5-part1,
+    .section5-part2, .section6, .section6-cards, .section8, .footer{
+        flex-direction: column;
+    }
     
+    .section8{
+        position: relative;
+    }
+
+    .section8 button{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        position: absolute;
+        top: 13rem;
+    }
 }
